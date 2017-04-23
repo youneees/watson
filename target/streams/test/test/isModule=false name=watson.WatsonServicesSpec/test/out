@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mWatsonServicesSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mWatsonServicesManager[0m[0m
+[0m[[0minfo[0m] [0m[32m- should initialize SpeechToTextService with default SpeechModel[0m[0m
+[0m[[0minfo[0m] [0m[32m  + Given required configuration [0m[0m
+[0m[[0minfo[0m] [0m[32m  + When Speech model is initialized [0m[0m
+[0m[[0minfo[0m] [0m[32m  + Then it is initialized with the correct language [0m[0m

@@ -1,0 +1,13 @@
+project
+clean
+compile
+exit
+project
+clean
+compile
+test
+testOnly watson.StreamingTranscriptionSpec
+console
+testOnly watson.StreamingTranscriptionSpec
+console
+exit

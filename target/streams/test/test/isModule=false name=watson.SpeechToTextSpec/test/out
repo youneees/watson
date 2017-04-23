@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mSpeechToTextSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mSpeechToTextService[0m[0m
+[0m[[0minfo[0m] [0m[32m- should auto acquired mime-type from file[0m[0m
+[0m[[0minfo[0m] [0m[32m  + Given A file with a known mime-type [0m[0m
+[0m[[0minfo[0m] [0m[32m  + Then the same mime-type is retreived using java.nio.file.Files.probeContentType [0m[0m
+[0m[[0minfo[0m] [0m[32m- should recognize speech and evaluate keywords[0m[0m
+[0m[[0minfo[0m] [0m[32m  + Given A path to audio file [0m[0m
+[0m[[0minfo[0m] [0m[32m  + When org.scalatest.FlatSpecLike$ItWord@4c7e1e2a recognition is called [0m[0m
+[0m[[0minfo[0m] [0m[32m  + Then result is not empty [0m[0m
+[0m[[0minfo[0m] [0m[32m  + Then recognized transcript contains textual keywords [0m[0m
+[0m[[0minfo[0m] [0m[32m  + Then keywords are recognized phonetically [0m[0m

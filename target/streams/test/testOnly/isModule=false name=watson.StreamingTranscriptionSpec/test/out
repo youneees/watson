@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mStreamingTranscriptionSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA[0m[0m
+[0m[[0minfo[0m] [0m[31m- should B *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IllegalArgumentException: No line matching interface TargetDataLine supporting format PCM_SIGNED 8000.0 Hz, 16 bit, mono, 2 bytes/frame, big-endian is supported.[0m[0m
+[0m[[0minfo[0m] [0m[31m  at javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:479)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at javax.sound.sampled.AudioSystem.getTargetDataLine(AudioSystem.java:702)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at watson.StreamingTranscriptionSpec.$anonfun$new$1(StreamingTranscriptionSpec.scala:50)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.ibm.watson.developer_cloud:language-translation:3.7.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.ibm.watson.developer_cloud/language-translation/jars/language-translation-3.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.ibm.watson.developer_cloud/language-translation/srcs/language-translation-3.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
